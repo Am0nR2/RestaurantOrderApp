@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+/* Layout */
+header{
+  
+    background-image: url(/RestaurantOrderApp/ImageLogo/Logo.png);
+    background-size: 100%;
+    padding: 1px;
+    color: #ffffff;
+}
+ .container header h1{
+margin-bottom: 5px;
+margin-left: 25px;
+}
+ .container header p{
+margin-top: 5px;
+margin-left: 25px;
+}
+.food-img{
+font-size: 5em;
+margin: 10px 0px 10px 0px;
+}
+
+.food-info h3{
+margin: 20px 0px 4px 0px;
+font-size: 24px;    
+}
+
+.payment p{
+    font-size: 20px;
+}
+/* Classes */
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+    background: rgb(240, 233, 221);
+    padding-bottom: 10px;
+}
+.foods{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    width: 440px;
+    margin: 0 auto;
+    border-bottom: 3px solid #DEDEDE;
+}
+.content{
+    color: #868686;
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+}
+.price{
+    margin-top: 0px;
+    font-size: 20px;
+}
+.food-info{
+flex-basis: 80%;
+margin-left: 20px;
+}
+.increment{
+    flex-basis: 0%;
+
+}
+.paymenttitle{
+text-align: center;
+}
+.paymenttitle h3{
+    margin-top: 0px;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.ordered{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.orders{
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.payment{
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+
+#finish,
+#finish-last{
+   
+    color: white;
+    background: #16DB99;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 0px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #16DB99;
+    border-radius: 9px;
+}
+#finish:hover,
+#finish:active,
+#finish-last:hover,
+#finish-last:active{
+    color: #16DB99;
+    background: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #DEDEDE;
+}
+button:active{
+    font-size: 1.75em;
+}
+button{
+    font-size: 2em;
+    border: 2px solid #DEDEDE;
+    background: white;
+    border-radius: 50%;
+
+}
+
+/* Form */
+#payment-form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#payment-form input{
+    margin: 0px 0px 5px 0px;
+    width: 100%;
+    padding: 10px 10px;
+    border: 2px solid #16DB99;
+   
+}
+
+.formArea{
+    display: none;
+    background: white;
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 200px black;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto auto;
+}
+#modal-close-btn{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    border: 3px solid black;
+    color: red;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.thanks-area{
+ width: 400px;
+ height: 80px;
+ margin: 0 auto;
+ background: #ECFDF5;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.thanks-area p{
+margin: 0;
+font-size: 1.5em;
+color: #065F46;
+text-decoration: underline;
+}
+.hidden{
+    display: none;
+}
+.remove-btn{
+    font-size: 0.5em;
+    background: none;
+    border: none;
+    color: gray;
+    opacity: 0.6;
+
+}
+.remove-btn:hover{
+    font-size: 0.5em;
+    background-color: rgb(240, 233, 221);
+    color: red;
+    
+}
+/* id's here */
+
+#your-order{
+    margin-top: 20px;
+}
+
