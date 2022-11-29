@@ -8,7 +8,7 @@ body{
 /* Layout */
 header{
   
-    background-image: url(/RestaurantOrderApp/ImageLogo/Logo.png);
+    background-image: url(./ImageLogo/Logo.png);
     background-size: 100%;
     padding: 1px;
     color: #ffffff;
